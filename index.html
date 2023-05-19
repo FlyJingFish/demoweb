@@ -56,38 +56,4 @@
 
 
 </body>
-/* <script>
-	var imgs = document.getElementsByTagName("img");
-	var jsonArray = [];
-	var positions = [];
-	for (var i = 0;i < imgs.length;i++) {
-		var obj = imgs[i];
-		var marginTop = obj.offsetTop-document.documentElement.scrollTop;
-		var marginLeft = obj.offsetLeft-document.documentElement.scrollLeft;
-		var imgWidth = obj.offsetWidth;
-		var imgHeight = obj.offsetHeight;
-
-		let jsonObject = {
-			"url" : obj.src,
-			"imgWidth":imgWidth,
-			"imgHeight":imgHeight,
-			"marginTop":marginTop,
-			"marginLeft":marginLeft,
-			"browserWidth":window.innerWidth
-		}
-		jsonArray.push(jsonObject);
-		positions.push(i);
-	}
-
-	for (var i = 0;i < imgs.length;i++) {
-		var obj = imgs[i];
-		var pos = i+"";
-		obj.onclick=function(){
-			window.openImageApi.openImagesJs(JSON.stringify(jsonArray),this.src)
-		}
-	}
-
-
-
-</script> */
 </html>
