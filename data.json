@@ -1,17 +1,14 @@
 [
   {
-    "audio":"1122.mp3",
     "image":"https://flyjingfish.github.io/demoweb/images/carrot.svg",
-    "audioEn":"1122.mp3"
+    "audio":"https://flyjingfish.github.io/demoweb/images/carrot.mp3",
+    "audioEn":"https://flyjingfish.github.io/demoweb/images/en_carrot.mp3",
+    "english":"Carrot"
   },
   {
-    "audio":"1122.mp3",
-    "image":"https://flyjingfish.github.io/demoweb/images/carrot.xml",
-    "audioEn":"1122.mp3"
-  },
-  {
-    "audio":"1122.mp3",
-    "image":"1122.svg",
-    "audioEn":"1122.mp3"
+    "image":"https://flyjingfish.github.io/demoweb/images/cabbage.svg",
+    "audio":"https://flyjingfish.github.io/demoweb/images/cabbage.mp3",
+    "audioEn":"https://flyjingfish.github.io/demoweb/images/en_cabbage.svg",
+    "english":"Cabbage"
   }
 ]
